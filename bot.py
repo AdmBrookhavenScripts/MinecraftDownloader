@@ -21,7 +21,7 @@ import os
 from discord import app_commands
 
 TOKEN = os.getenv("DISCORD_TOKEN")
-URL = "https://mcpe-planet.com/downloads/"
+URL = "https://mcpedl.org/downloading/"
 
 intents = discord.Intents.default()
 client = discord.Client(intents=intents)
